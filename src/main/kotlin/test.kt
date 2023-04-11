@@ -1,17 +1,9 @@
 fun main() {
 
-    var countNumber = 3
-    var listOfNumbers =  mutableListOf("4343434", "434343434", "43434343")
+    println(HelloPrinter())
+    val printer = HelloPrinter() // экземпляр(объект) класса HelloPrinter()
 
-    var listOfUsers = mutableMapOf<String, String>()
-
-    for (item in 0 until countNumber) {
-        print("Enter ${listOfNumbers.forEach { println(it) }} name ")
-        listOfUsers[item.toString()] = readln()
-    }
-
-    println(listOfUsers)
-
-
-
+    printer.printHello() // вызываю метод printHello() из экземпляра printer класса HelloPrinter()
 }
+
+
