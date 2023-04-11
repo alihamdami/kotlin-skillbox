@@ -1,18 +1,7 @@
-class HelloPrinter {
-    fun printHello() {
-        println("Hello!")
-    }
+class Person {
+    // свойства класса Person, которые объявляются ключевыми словами var и val
+    var age: Int = 0
+    var firstName = ""
+    var surname = ""
 
-}
-
-class Printer {
-    companion object DocumentPrinter {
-        fun printDocument() = println("Document printing successful.")
-    }
-}
-
-fun main() {
-    Printer.printDocument() // неявный вызов companion object
-
-    Printer.DocumentPrinter.printDocument() // явный вызов companion object
 }
