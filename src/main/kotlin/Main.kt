@@ -4,11 +4,20 @@ fun main() {
         brand = "samsung",
         model = "3434",
         diagonalSize = 27.7,
-        state = false,
+
     )
 
+    samsung.turnOn()
 
-    println(samsung.changeChannel())
+    samsung.volUp(50)
+    samsung.volUp(39)
+
+    samsung.volDown(40)
+
+
+    println(samsung.changeChannel(5))
+
+    println(samsung.changeChannel(10))
 
 
 
