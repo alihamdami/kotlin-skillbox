@@ -39,5 +39,10 @@ fun addedNumberInList(countNumber: Int): MutableList<String> {
     // каким еще способом можно обратиться к каждому элементу по индексу? map[listOfNumber[0]] = readln()
     // для заполнения коллекции используют циклы, например for в котором итератором будет i в коллекции
     // i это переменная, которая будет проходить по массиву и иметь в себе значение элемента коллекции
+
+    // I accessed each element by index
+     // any other way to access each element by index? map[listOfNumber[0]] = readln()
+     // loops are used to fill the collection, for example for in which the iterator will be i in the collection
+     // i is a variable that will pass through the array and contain the value of the collection element
     return listOfNumber
 }
